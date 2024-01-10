@@ -1,4 +1,7 @@
 
+## CREATING INFRASTRCTURE IN AWS
+
+
 * Create a terraform repository
 * added gitignore
 <img width="951" alt="one terraform repo" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/3f5e0706-0a08-494c-bcf0-01ae40cbdf27">
@@ -20,3 +23,12 @@
 
 * Terraform is installed
 <img width="955" alt="five it created  a devcontainerfile dot json" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/28f8742c-d9f2-476d-87db-1e7a3c9a72d3">
+
+### Since I Want To Create Infrastruction In AWS, Terraform Needs To Communicate With AWS, Hence The Installation Of AWS CLI
+
+* AWS CLI Installation
+* Following same process of installing terraform to install AWS CLI 
+<img width="916" alt="six install AWS CLI" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/572e2b45-9010-42f7-ba13-dbe5b14f70d0">
+
+* Aws Cli installed
+<img width="926" alt="seven AWS CLI installed" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/c3faa922-bc20-40b5-9f5e-57cf5c8fa220">
