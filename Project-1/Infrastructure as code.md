@@ -32,3 +32,9 @@
 
 * Aws Cli installed
 <img width="926" alt="seven AWS CLI installed" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/c3faa922-bc20-40b5-9f5e-57cf5c8fa220">
+
+* Refresh to Rebuild container
+ <img width="958" alt="eight click to rebuild container" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/623b2be7-4236-4496-a91e-0aeeb6e7a330">
+
+* Rebuiulding is  processing
+<img width="941" alt="Nine container rebuilding" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b3910341-de0c-4577-89eb-20976498d020">
