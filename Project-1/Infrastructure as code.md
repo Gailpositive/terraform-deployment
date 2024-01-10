@@ -38,3 +38,6 @@
 
 * Rebuiulding is  processing
 <img width="941" alt="Nine container rebuilding" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b3910341-de0c-4577-89eb-20976498d020">
+
+* Checking terraform and AWS CLI version
+<img width="869" alt="ten terraform and aws cli installed" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/dc8fc343-ecf3-4d95-b52d-c85a8c08be48">
