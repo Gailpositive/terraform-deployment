@@ -42,7 +42,7 @@
 * Checking terraform and AWS CLI version
 <img width="869" alt="ten terraform and aws cli installed" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/dc8fc343-ecf3-4d95-b52d-c85a8c08be48">
 
-### STEP 4: CREATE IAM USER
+### STEP 4: CREATE AN IAM USER
 
 * Create an user
 <img width="928" alt="11 choose an existing  user or create a new user" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/5d791eff-2f77-47ae-89a6-0ecfd113a471">
@@ -83,4 +83,27 @@
 <img width="924" alt="17 key created and downloaded" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/0d1c9684-8911-4bdf-8b18-83fbc455cdf7">
 
 * Access key downloaded
+* Click down
 <img width="952" alt="17b" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/6e33e472-c774-4314-8141-522c3e829669">
+
+ ### STEP 5 : On a broswer, Type Terraform Provider and go to AWS Documentation
+ * Copy the IAM user code resource
+<img width="936" alt="18 copy iam user code from terraform aws" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/aba56c5e-531c-4eec-9385-da634bada677">
+
+* On a broswer, type terraform provider, go to AWS documentation, locate AWS tarraform provider configuration code
+<img width="951" alt="terraform provider installation configuration" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/c4814be2-78b7-43c4-a72d-48bd75b4fae4">
+
+* Head over to code your repository, go to codespace,
+* On terraform-project, create a file called "main.tf" 
+<img width="958" alt="18 created afolder and a file inside the folder" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/a01e9f14-8e22-4974-89d6-f75c951fc2c1">
+
+
+* Paste both the Terraform provider configuration code and the AWS provider configuration code
+* This is not actually the best practice to, expose my access and security keys. 
+<img width="956" alt="18 its not actually best pratice to past both keys there so i opt for another way" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/d4334341-5ab6-4eb9-a0ae-eced807e778f">
+
+* This is a better practice, by using profile instead of access and seccurity keys
+<img width="832" alt="18b change keys to profile for security reasons" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b39d46d4-96a7-475a-b692-d09a68a764b4">
+
+* ls to view terraform=project folder
+<img width="951" alt="19" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b6160382-0f5b-4d04-b807-516cdf2c256d">
