@@ -1,5 +1,14 @@
-
 ## CREATING INFRASTRCTURE IN AWS
+
+<img width="636" alt="terraform aws image" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/41cadeda-fe4e-4f74-a4c8-c66f607918e1">
+
+
+## Resouces used:
+* AWS IAM
+* Terraform Provider & AWS Documentation
+* Github Codespace
+
+
 
 ### STEP 1: Create a terraform repository
 * added gitignore
