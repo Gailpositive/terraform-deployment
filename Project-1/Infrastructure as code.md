@@ -42,6 +42,7 @@
 * Checking terraform and AWS CLI version
 <img width="869" alt="ten terraform and aws cli installed" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/dc8fc343-ecf3-4d95-b52d-c85a8c08be48">
 
+
 ### STEP 4: CREATE AN IAM USER
 
 * Create an user
@@ -55,7 +56,7 @@
 <img width="943" alt="13 attach policies directly" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b97dc448-de8c-4bc6-88e6-dc2f0ea23a8d">
 
 * Grant user ec2 full access policy
-<img width="601" alt="aws config b" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/ef38a2b2-b863-4df7-87b9-84a976f13093">
+<img width="952" alt="14 give user ec2 full access permission" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/3aaafb25-db75-4986-aa56-29be59c55f5a">
 
 * Grant user S3 full access permissiom
 <img width="926" alt="14b and s3 full access permision" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/428d8b31-9be0-4c0f-90d3-d883e3144558">
@@ -106,4 +107,30 @@
 <img width="832" alt="18b change keys to profile for security reasons" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b39d46d4-96a7-475a-b692-d09a68a764b4">
 
 * ls to view terraform=project folder
+* cd into terraform=project
+* terraform init to initialize it
 <img width="951" alt="19" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/b6160382-0f5b-4d04-b807-516cdf2c256d">
+
+### STEP 6: AWS Configuration 
+* Aws config
+* Add AWS access key id and 
+* Add AWS security id,  gotten from the IAM user created ealier
+* Enter the AZ region
+* Defualt output format is json
+ <img width="601" alt="aws config b" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/ef38a2b2-b863-4df7-87b9-84a976f13093">
+
+* Terraform init to initailize terraform
+<img width="952" alt="19b terraform init successfully" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/1daab59a-de6e-40e7-be0a-3a2287c35bff">
+
+* Terraform fmt to format or orderly arrange code
+* Terraform validate/ check code is correct
+<img width="960" alt="1 ec2 instance" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/dd1cf02a-9425-45f4-831e-50b6b99e0ecd">
+
+*  Terraform validate
+<img width="959" alt="2 ec2 instance" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/cde9ee66-c3d1-4c9c-ba0a-831698946df5">
+
+<img width="925" alt="3 ec2 instance" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/fee0378c-0e7d-4b84-a504-fd27888e57bb">
+
+
+* EC2 instance server  created and running
+<img width="951" alt="5 ec2 instance running created by LAC" src="https://github.com/Gailpositive/terraform-deployment/assets/111061512/5c7b8672-836e-46ab-927a-80b9ec5c9ec8">
